@@ -11,12 +11,12 @@ enum SAMPLE_EXPORT_API
 	SAMPLE_EXPORT_API_PRINT = 0x2001,
 };
 
-int Add(int a, int b)
+__declspec(dllexport) int Add(int a, int b)
 {
 	return a + b;
 }
 
-void Print(LPCWSTR pwString)
+__declspec(dllexport) void Print(LPCWSTR pwString)
 {
 	printf("Print() func is called");
 }
