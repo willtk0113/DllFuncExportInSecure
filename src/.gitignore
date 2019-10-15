@@ -39,5 +39,6 @@
 *.filters
 *.iobj
 *.ipdb
+*.exp
 /*/Debug/
 /*/Release/
